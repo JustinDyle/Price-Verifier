@@ -1,0 +1,40 @@
+#Item{
+    position: relative;
+    left: 365px;
+    top: 400px;
+
+}
+#Bar{
+    position: relative;
+    left: 385px;
+    top: 500px;
+}
+a{
+    position: relative;
+    left: 268px;
+    bottom: 50px;
+    background-color: #5c5c5c;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    font-size: larger;
+    padding: 20px 100px;
+    height: 40%;
+    width: 50%;
+    text-align: center;
+    color: white;
+    box-shadow: 1px 3px 8px #888888;
+    border-bottom: 1px solid white;
+    border-right: none;
+    border-radius: 100px;
+    text-decoration: none;
+    font-weight: 400;
+}
+body{
+    background-image: url(Mt.Fuji.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+a:hover{
+    background-color: rgb(114, 112, 112);
+    border: none;
+}

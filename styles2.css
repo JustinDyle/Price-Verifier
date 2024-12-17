@@ -1,0 +1,103 @@
+.itemadd{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    width: 300px;
+    padding-top: 25px;
+    padding-left: 80px;
+    padding-right: 250px;
+    padding-bottom: 80px;
+    margin-left: 650px;
+    display: block;
+    background-color: rgba(31, 31, 31, 0.9);
+    box-shadow: 5px 5px 6px 2px #888888;
+    border-bottom: 2px solid white;
+    position: relative;
+    top: 40px;
+    bottom: 100px;
+    position: fixed;
+    border-radius: 100px;
+}
+#back{
+    position: relative;
+    font-weight: bolder;
+    text-decoration: none;
+}
+a{
+    position: relative;
+    left: 268px;
+    bottom: 37.5px;
+    background-color: #5c5c5c;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    padding: 11.5px 25px;
+    height: 40%;
+    width: 50%;
+    text-align: center;
+    color: white;
+    box-shadow: 1px 3px 8px #888888;
+    border-bottom: 1px solid white;
+    border-right: none;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 400;
+}
+body{
+    background-image: url(Mt.Fuji.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+input[type=text] {
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150%;
+}
+input[type=number] {
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150%;
+}
+#description{
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150%;
+}
+button{
+    background-color: #5c5c5c;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    padding: 10px;
+    height: 40%;
+    width: 40%;
+    text-align: center;
+    color: white;
+    box-shadow: 1px 3px 8px #888888;
+    border-bottom: 1px solid white;
+    border-right: none;
+    border-radius: 20px;
+}
+.reset {
+    background-color: #5c5c5c;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    padding: 10px;
+    height: 40%;
+    width: 40%;
+    text-align: center;
+    color: white;
+    box-shadow: 1px 3px 8px #888888;
+    margin-left: 10px;
+    border-bottom: 1px solid white;
+    border-right: none;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: rgb(114, 112, 112);
+    border: none;
+}
+.reset:hover {
+    background-color: rgb(114, 112, 112);
+    border: none;
+}

@@ -1,0 +1,150 @@
+.itemname{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    width: 300px;
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 250px;
+    padding-bottom: 80px;
+    display: block;
+    margin-left: 690px;
+    margin-top: 100px;
+    background-color: rgba(31, 31, 31, 0.9);
+    box-shadow: 5px 5px 6px 2px #888888;
+    border-bottom: 2px solid white;
+    border-radius: 100px;
+}
+.enterbarcode{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    width: 300px;
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 250px;
+    padding-bottom: 80px;
+    display: block;
+    margin-left: 690px;
+    margin-top: 100px;
+    background-color: rgba(31, 31, 31, 0.9);
+    box-shadow: 5px 5px 6px 2px #888888;
+    border-bottom: 2px solid white;
+    border-radius: 100px;
+}
+a{
+    position: relative;
+    left: 268px;
+    bottom: 51.5px;
+    background-color: #5c5c5c;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    padding: 11.5px 25px;
+    height: 40%;
+    width: 50%;
+    text-align: center;
+    color: white;
+    box-shadow: 1px 3px 8px #888888;
+    border-bottom: 1px solid white;
+    border-right: none;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 400;
+}
+#sakura{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+}
+#back{
+    position: relative;
+    left: 505px;
+    bottom: 40px;
+    font-weight: bolder;
+}
+#php{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    width: 500px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    margin-left: 705px;
+    background-color: rgba(31, 31, 31, 0.9);
+    box-shadow: 5px 5px 6px 2px #888888;
+    border-bottom: 2px solid white;
+    border-radius: 50px;
+    text-align: left;
+}
+
+input[type=text] {
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150%;
+}
+input[type=number]{
+    border: 2px solid;
+    padding: 5px; 
+}
+textarea{
+    border: 2px solid;
+    padding: 5px;
+}
+
+body{
+    background-image: url(Mt.Fuji.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.reset {
+    background-color: #5c5c5c;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    padding: 10px;
+    height: 40%;
+    width: 40%;
+    text-align: center;
+    color: white;
+    box-shadow: 1px 3px 8px #888888;
+    margin-left: 10px;
+    border-bottom: 1px solid white;
+    border-right: none;
+    border-radius: 20px;
+    font-weight: 500;
+}
+button{
+    background-color: #5c5c5c;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    padding: 10px;
+    height: 40%;
+    width: 40%;
+    text-align: center;
+    color: white;
+    box-shadow: 1px 3px 8px #888888;
+    border-bottom: 1px solid white;
+    border-right: none;
+    border-radius: 20px;
+}
+
+button:hover{
+    background-color: rgb(114, 112, 112);
+    border: none;
+}
+.reset:hover {
+    background-color: rgb(114, 112, 112);
+    border: none;
+}
+a:hover{
+    background-color: rgb(114, 112, 112);
+    border: none;
+}
